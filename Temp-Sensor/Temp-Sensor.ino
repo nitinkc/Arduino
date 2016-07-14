@@ -1,9 +1,9 @@
  const int sensorPin = A0;
-  const float baselineTemp = 20.0;//Temp in F
+  const float baseLineTemp = 20.0;//Temp in F
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600)
+  Serial.begin(9600);
   for (int pinNumber = 2; pinNumber < 5; pinNumber++){
     pinMode(pinNumber, OUTPUT);
     digitalWrite(pinNumber,LOW);
