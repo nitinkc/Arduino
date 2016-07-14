@@ -22,7 +22,7 @@ void loop() {
     digitalWrite(4, LOW); //red
     digitalWrite(5, HIGH); //red
 
-    delay (1000); 1 sec wait
+    delay (250); //1 sec wait
     //toggle LED's
     digitalWrite(4, HIGH); //red
     digitalWrite(5, LOW); //red
