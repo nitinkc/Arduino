@@ -1,5 +1,5 @@
  const int sensorPin = A0;
-  const float baseLineTemp = 20.0;//Temp in F
+  const float baseLineTemp = 25.0;//Temp in F
 
 void setup() {
   // put your setup code here, to run once:
